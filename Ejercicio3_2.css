@@ -4,7 +4,7 @@ h1, h2, p, li{
 body{
     background-color:  rgb(203, 227, 252)
 }
-@media screen and (min-width: 600px{
+@media screen and (min-width: 600px) {
     h2{
         background-color: forestgreen;
     }
