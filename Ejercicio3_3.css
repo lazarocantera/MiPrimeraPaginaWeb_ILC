@@ -1,0 +1,28 @@
+nav{
+    padding: 1em; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: white;
+}
+nav ul{
+    list-style: none; padding: 0; margin: 0; background-color: black; display: flex; justify-content: space-around;
+}
+nav li a{
+    color: white; display: block; text-decoration: none; padding: .5em 1em; font-size: 24px; background-color: black;
+}
+nav li a:hover{
+    background: orange; color: brown;
+}
+
+h1, h2, p, li{
+    font-size: 14px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: brown; line-height: 1.5cm;
+}
+body{
+    background-color:  rgb(203, 227, 252)
+}
+@media screen and (min-width: 600px) {
+    h2{
+        background-color: forestgreen;
+    }
+    li{
+        background-color: orange;
+    }
+}
+
