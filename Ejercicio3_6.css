@@ -1,0 +1,33 @@
+.flex-container{
+    display: flex; background-color: wheat;
+}
+.flex-container > div {
+    background-color: #f1f1f1; margin: 10px; padding: 20px; font-size: 30px;
+  }
+#labelling{
+    font-size: small; color: rgb(22, 22, 22); align-content: center;
+}
+#CajaIz{
+    background-color: white; margin: 10px; padding: 10; box-sizing: content-box; width: 100px; height: 100px;align-content: center;
+}
+#CajaCen{
+    margin: 10px;   height: 100px; width: 600px;
+}
+#CajaDer{
+    margin: 10px; height: 100px;  width: 200px;
+}
+#EtCenSalud{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; color: gray; font-size: 20px;
+}
+#MedGral{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; color: gray; font-size: 14px;
+}
+.Submenu{
+    display: flex; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 14px; border-color: indigo; align-self: flex-start;
+}
+#ResC, #PedPres{
+    padding: 0px; margin: 3px; align-items: flex-start;  font-size: 14px; width: 150px; height: 30px; border-radius: 10px;
+}
+#PedPres{
+    background-color: rgb(131, 124, 124); color: whitesmoke;
+}
