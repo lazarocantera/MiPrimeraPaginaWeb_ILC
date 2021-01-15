@@ -38,12 +38,18 @@
                 </ul>
             </div>
         </p>
-        <form class="Formulario">
-            <label for="vNombre">Introduce tu nombre: </label>
-            <input type="text" id="vNombre" name="vNombre"><br>
-            <label for="vCorreo">Introduce tu correo electrónico:</label>
-            <input type="text" id="vCorreo" name="vCorreo"><br>
-            <input type="submit" value="Enviar">
-        </form>
+        <div class="CajaForm">
+            <form>
+                <label for="vNombre" id="Name">Introduce tu nombre: </label>
+                <input  type="text" id="vNombre" name="vNombre"><br>
+                <label for="vCorreo" id="Correo">Introduce tu correo electrónico:</label>
+                <input type="email" id="vCorreo" name="vCorreo"><br>
+                <label for="Coment" id="Comentar">Comentarios</label>
+                <textarea name="Coment" id="Coment" cols="30" rows="5"></textarea><br>
+                <input type="submit" value="Enviar" id="Boton">
+            </form>            
+        </div>
+        
+
     </body>
 </html>
