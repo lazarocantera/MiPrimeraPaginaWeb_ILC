@@ -8,18 +8,18 @@
     font-size: small; color: rgb(22, 22, 22); align-content: center;
 }
 #CajaIz{
-    background-color: white; margin: 10px; padding: 10; box-sizing: content-box; width: 100px; height: 100px;align-content: center;
+    background-color: gainsboro; margin: 10px; padding: 10; box-sizing: content-box; width: 100px; height: 100px;align-content: center;
 }
 #CajaCen{
     margin: 10px;   height: 100px; width: 600px;
 }
 #CajaDer{
-    margin: 10px; height: 100px;  width: 200px;
+    margin: 10px; height: 100px;  width: 200px; align-items: center; align-content: center; justify-content: flex-end;
 }
 #EtCenSalud{
     font-family: Verdana, Geneva, Tahoma, sans-serif; color: gray; font-size: 20px;
 }
-#MedGral{
+#MedGral, p{
     font-family: Verdana, Geneva, Tahoma, sans-serif; color: gray; font-size: 14px;
 }
 .Submenu{
@@ -31,3 +31,7 @@
 #PedPres{
     background-color: rgb(131, 124, 124); color: whitesmoke;
 }
+#Punt{
+    float:right; padding: 0; font-family: Verdana, Geneva, Tahoma, sans-serif; color: rgb(19, 18, 18); display: flexbox;background-color: rgb(187, 182, 182); font-size: 20px;
+    width: 35px; height: 35px; border-radius: 10px; justify-content: flex-end;
+
